@@ -1,5 +1,15 @@
-## Working example of nbgrader from the command line using R and `testthat`:
+# Working example of nbgrader from the command line using R and `testthat`:
 
+### Dependencies:
+(click on links for download and installation instructions)
+- [Python & Jupyter](https://www.anaconda.com/download/)
+- [nbgrader](http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html)
+- [R](https://cran.r-project.org/)
+- [IR kernel](https://irkernel.github.io/installation/)
+- [testthat](https://github.com/r-lib/testthat#installation)
+
+
+## The Demo:
 1. Clone/download this repository and navigate into its root directory in the terminal. *Note - I used `nbgrader quickstart course_id` to generate course template and nbgrader config file.*
 
 2. Added this to `nbgrader_config.py`
