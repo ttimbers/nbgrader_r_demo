@@ -39,7 +39,8 @@ chmod ugo+rw /tmp/exchange
 nbgrader assign ps1
 ```
 
-6. Manually create the student submitted directory and put the submissions there:
+*note - in this example it is assumed we would use some mechanism (not nbgrader) to then distribute copies of this assignment and then collect them into the `submitted` directory after the students worked on them. Here for this demo, I manually create the `submitted` directory and the student directories inside this (which correspond to the students in the config file):*
+
 ```
 mkdir submitted
 mkdir submitted/hacker
@@ -47,6 +48,8 @@ cp -r release/ps1 submitted/hacker/ps1
 mkdir submitted/bitdiddle
 cp -r release/ps1 submitted/bitdiddle/ps1
 ```
+
+*I then manually edited the submitted notebooks with sample work a student might hand in.*
 
 7. Run the autograder:
 ```
