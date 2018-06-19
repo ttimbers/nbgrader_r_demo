@@ -51,12 +51,12 @@ cp -r release/ps1 submitted/bitdiddle/ps1
 
 *I then manually edited the submitted notebooks with sample work a student might hand in.*
 
-7. Run the autograder:
+6. Run the autograder:
 ```
 nbgrader autograde ps1
 ```
 
-8. Export the database to a csv:
+7. Export the database to a csv:
 ```
 nbgrader export
 ```
