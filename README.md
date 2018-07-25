@@ -4,7 +4,7 @@
 (click on links for download and installation instructions)
 - [Python & Jupyter](https://www.anaconda.com/download/)
 - [nbgrader](http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html)
-- [nbgrader form grader extension](http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html#installing-and-activating-extensions)
+- [nbgrader Formgrader extension](http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html#installing-and-activating-extensions)
 - [R](https://cran.r-project.org/)
 - [IR kernel](https://irkernel.github.io/installation/)
 - [testthat](https://github.com/r-lib/testthat#installation)
