@@ -11834,7 +11834,7 @@ span.nbgrader-label {
   <div class="container">
     <div class="panel panel-default">
       <div class="panel-heading">
-        <h4>r_notebook (Score: 2.0 / 4.0)</h4>
+        <h4>r_notebook (Score: 2.0 / 6.0)</h4>
         <div id="toc">
           <ol>
           
@@ -11871,6 +11871,16 @@ span.nbgrader-label {
             
             
             <li><a href="#comment-cell-e373d8dc42a0ddeb">Comment</a></li>
+            
+          
+            
+            
+          
+            
+            <li><a href="#cell-552860984e6eff56">Written response</a> (Score: 0.0 / 2.0)</li>
+            
+            
+            <li><a href="#comment-cell-552860984e6eff56">Comment</a></li>
             
           
           
@@ -11943,37 +11953,18 @@ COLLABORATORS <span class="o">=</span> <span class="s">&quot;&quot;</span>
     <a name="comment-cell-9505ddd9bcdffc98"></a><div class="panel-heading"><span class="nbgrader-label">Student's answer</span><span class="pull-right"><a href="#top">(Top)</a></span></div>
     <div class="panel-body">
       <div class="input_area">
-        <div class=" highlight hl-r"><pre><span></span><span class="kp">mean</span><span class="p">(</span>mtcars<span class="o">$</span>mpg<span class="p">)</span>
+        <div class=" highlight hl-r"><pre><span></span>mean_mpg <span class="o">=</span> <span class="kp">sum</span><span class="p">(</span>mtcars<span class="o">$</span>hp<span class="p">)</span> <span class="o">/</span> <span class="kp">nrow</span><span class="p">(</span>mtcars<span class="p">)</span>
 </pre></div>
 
       </div>
     </div>
     <div class="panel-footer">
   <div>
-    <b>Comments:</b> <p>You did not save the mean to a variable called mean_mpg. Additionally you were not supposed to use the mean function.</p>
+    <b>Comments:</b> <p>wrong column in the data frame - you want the mpg column here.</p>
 
   </div>
 </div>
   </div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-
-<div class="output_html rendered_html output_subarea ">
-20.090625
-</div>
-
-</div>
-
-</div>
 </div>
 
 </div>
@@ -12011,13 +12002,9 @@ COLLABORATORS <span class="o">=</span> <span class="s">&quot;&quot;</span>
 <div class="output_subarea output_text output_error">
 <pre>
 Error: Test failed: &#39;Solution is correct&#39;
-* `x` isn&#39;t true.
-* object &#39;mean_mpg&#39; not found
-1: expect_that(mean_mpg, is_a(&#34;numeric&#34;)) at &lt;text&gt;:3
-2: condition(object)
-3: expect_is(x, class)
-4: quasi_label(enquo(object), label)
-5: eval_bare(get_expr(quo), get_env(quo))
+* `mean_mpg` not equal to mean(mtcars$mpg).
+1/1 mismatches
+[1] 147 - 20.1 == 127
 Traceback:
 
 1. test_that(&#34;Solution is correct&#34;, {
@@ -12060,7 +12047,7 @@ Traceback:
     </div>
     <div class="panel-footer">
   <div>
-    <b>Comments:</b> <p>You were expected to use the assignment symbol (<code>&lt;-</code>), not the equals sign (<code>=</code>). Good use of whitespace, however.</p>
+    <b>Comments:</b> <p>use the <code>&lt;-</code> instead of <code>=</code></p>
 
   </div>
 </div>
@@ -12068,6 +12055,37 @@ Traceback:
 </div>
 
 </div>
+<div class="cell border-box-sizing text_cell rendered">
+  <div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+    <div class="text_cell_render border-box-sizing rendered_html">
+      <p>What is the "best" programming language for data science?</p>
+
+    </div>
+  </div></div>
+
+<div class="cell border-box-sizing text_cell rendered">
+  <div class="prompt input_prompt">
+</div>
+<div class="panel panel-primary nbgrader_cell">
+    <a name="comment-cell-552860984e6eff56"></a><a name="cell-552860984e6eff56"></a><div class="panel-heading"><span class="nbgrader-label">Student's answer</span><span class="pull-right">
+      Score: 0.0 / 2.0 <a href="#top">(Top)</a>
+  </span></div>
+    <div class="panel-body">
+      <div class="text_cell_render border-box-sizing rendered_html">
+        <p>Python</p>
+
+      </div>
+    </div>
+    <div class="panel-footer">
+  <div>
+    <b>Comments:</b> <p>There really is no  "best" programming language for data science, you should really use what your collaborators use.</p>
+
+  </div>
+</div>
+  </div></div>
+
           </div>
         </div>
       </div>
