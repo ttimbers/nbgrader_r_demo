@@ -4,6 +4,7 @@
 (click on links for download and installation instructions)
 - [Python & Jupyter](https://www.anaconda.com/download/)
 - [nbgrader](http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html)
+- [nbgrader form grader extension](http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html#installing-and-activating-extensions)
 - [R](https://cran.r-project.org/)
 - [IR kernel](https://irkernel.github.io/installation/)
 - [testthat](https://github.com/r-lib/testthat#installation)
@@ -65,8 +66,16 @@ cp -r release/ps1 submitted/bitdiddle/ps1
 ```
 nbgrader autograde ps1
 ```
+*note - to do manual grading you need to click on the "Formgrader" tab from the Jupyter Home page and then click on manual grading.
 
-7. Export the database to a csv:
+7. Create feedback form for student:
+```
+nbgrader feedback ps1
+```
+
+8. Export the database to a `.csv`:
 ```
 nbgrader export
 ```
+
+*note - using SQLite you can get more info from `gradebook.db` than you can get from the exported `.csv`*
