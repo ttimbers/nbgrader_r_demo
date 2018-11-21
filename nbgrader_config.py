@@ -9,7 +9,7 @@ c = get_config()
 c.Exchange.course_id = "nbgrader_r_demo"
 
 # Update this list with other assignments you want
-c.CourseDirectory.db_assignments = [dict(name="ps1")]
+c.CourseDirectory.db_assignments = [dict(name="lab1")]
 
 # Change the students in this list with that actual students in
 # your course
@@ -18,7 +18,7 @@ c.CourseDirectory.db_students = [
     dict(id="hacker", first_name="Alyssa", last_name="Hacker"),
 ]
 
-c.IncludeHeaderFooter.header = "source/header.ipynb"
+#c.IncludeHeaderFooter.header = "source/header.ipynb"
 
 c.Exchange.root = "/tmp/exchange"
 
