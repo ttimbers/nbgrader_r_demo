@@ -5,9 +5,11 @@
 - [Python & Jupyter](https://www.anaconda.com/download/)
 - [nbgrader](http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html)
 - [nbgrader Formgrader extension](http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html#installing-and-activating-extensions)
-- [R](https://cran.r-project.org/)
-- [IR kernel](https://irkernel.github.io/installation/)
-- [testthat](https://github.com/r-lib/testthat#installation)
+- [R](https://cran.r-project.org/) & R packages 
+    - [IR kernel](https://irkernel.github.io/installation/)
+    - [testthat](https://github.com/r-lib/testthat#installation)
+    - [digest](https://github.com/eddelbuettel/digest) (should be installed as a dependency of IR kernel...)
+    - [stringr](https://github.com/tidyverse/stringr)
 
 
 ## The Demo (how I created it and ran it):
