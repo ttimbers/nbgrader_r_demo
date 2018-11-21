@@ -15,28 +15,7 @@
 ## The Demo (how I created it and ran it):
 1. I cloned/download this repository and navigate into its root directory in the terminal. *Note - I used `nbgrader quickstart course_id` to generate course template and nbgrader config file.*
 
-2. I added this to `nbgrader_config.py` to specify the “exchange” directory to be `/tmp/exchange` and to enable R to be used with nbgrader, edited the name of the assignment, and commented out `c.IncludeHeaderFooter.header = "source/header.ipynb"`:
-```
-c.Exchange.root = "/tmp/exchange"
-
-## The delimiter marking the beginning of a solution
-c.ClearSolutions.begin_solution_delimeter = 'BEGIN SOLUTION'
-
-## The code snippet that will replace code solutions
-c.ClearSolutions.code_stub = {
-    "r": "# your code here\nfail() # No Answer - remove if you provide an answer",
-    "python": "# your code here\nraise NotImplementedError",
-    "javascript": "// your code here\nthrow new Error();"
-}
-
-## The delimiter marking the end of a solution
-c.ClearSolutions.end_solution_delimeter = 'END SOLUTION'
-
-# Update this list with other assignments you want
-c.CourseDirectory.db_assignments = [dict(name="lab1")]
-
-#c.IncludeHeaderFooter.header = "source/header.ipynb"
-```
+2. I edited [`nbgrader_config.py`](https://github.com/ttimbers/nbgrader_r_demo/blob/master/nbgrader_config.py) to specify the “exchange” directory to be `/tmp/exchange`, to enable R to be used with nbgrader, edited the name of the assignment, and commented out `c.IncludeHeaderFooter.header = "source/header.ipynb"` (so that I don't need to have a separate header notebook).
 
 *note - thanks to https://github.com/sagemathinc/cocalc/wiki/nbgrader for suggestions on how to modify the config file to work with R!*
 
