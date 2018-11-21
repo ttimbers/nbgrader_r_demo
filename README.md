@@ -56,7 +56,7 @@ nbgrader autograde lab1
 
 7. I then created the feedback form for students:
 ```
-nbgrader feedback ps1
+nbgrader feedback lab1
 ```
 
 8. I finally exported the database to a `.csv`:
