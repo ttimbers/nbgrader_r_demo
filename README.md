@@ -41,9 +41,9 @@ nbgrader assign --force lab1
 ```
 mkdir submitted
 mkdir submitted/hacker
-cp -r release/ps1 submitted/hacker/lab1
+cp -r release/lab1 submitted/hacker/lab1
 mkdir submitted/bitdiddle
-cp -r release/ps1 submitted/bitdiddle/lab1
+cp -r release/lab1 submitted/bitdiddle/lab1
 ```
 
 *I then manually edited the submitted notebooks with sample work a student might hand in.*
