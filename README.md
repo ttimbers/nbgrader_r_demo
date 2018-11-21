@@ -2,7 +2,9 @@
 
 - [Student version of assignment](https://github.com/ttimbers/nbgrader_r_demo/blob/master/release/lab1/lab1.ipynb)
 - [Instructor version of assignment](https://github.com/ttimbers/nbgrader_r_demo/blob/master/source/lab1/lab1.ipynb)
-- [Graded feedback form]()
+- Graded feedback forms:
+    - [student 1](http://tiffanytimbers.com/nbgrader_r_demo/feedback/bitdiddle/lab1/lab1.html)
+    - [student 2](http://tiffanytimbers.com/nbgrader_r_demo/feedback/hacker/lab1/lab1.html)
 
 ### Dependencies:
 (click on links for download and installation instructions)
