@@ -15,7 +15,7 @@
 ## The Demo (how I created it and ran it):
 1. I cloned/download this repository and navigate into its root directory in the terminal. *Note - I used `nbgrader quickstart course_id` to generate course template and nbgrader config file.*
 
-2. I added this to `nbgrader_config.py` to specify the “exchange” directory to be `/tmp/exchange` and to enable R to be used with nbgrader and edited the name of the assignment:
+2. I added this to `nbgrader_config.py` to specify the “exchange” directory to be `/tmp/exchange` and to enable R to be used with nbgrader, edited the name of the assignment, and commented out `c.IncludeHeaderFooter.header = "source/header.ipynb"`:
 ```
 c.Exchange.root = "/tmp/exchange"
 
@@ -34,6 +34,8 @@ c.ClearSolutions.end_solution_delimeter = 'END SOLUTION'
 
 # Update this list with other assignments you want
 c.CourseDirectory.db_assignments = [dict(name="lab1")]
+
+#c.IncludeHeaderFooter.header = "source/header.ipynb"
 ```
 
 *note - thanks to https://github.com/sagemathinc/cocalc/wiki/nbgrader for suggestions on how to modify the config file to work with R!*
