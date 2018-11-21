@@ -1,5 +1,8 @@
 # Working example of nbgrader from the command line using R and `testthat`:
 
+- [Student version of assignment](https://github.com/ttimbers/nbgrader_r_demo/blob/master/release/lab1/lab1.ipynb)
+- [Instructor version of assignment](https://github.com/ttimbers/nbgrader_r_demo/blob/master/source/lab1/lab1.ipynb)
+
 ### Dependencies:
 (click on links for download and installation instructions)
 - [Python & Jupyter](https://www.anaconda.com/download/)
